@@ -27,3 +27,7 @@ const latitude = data[0].lat
 .then( data =>{
     console.log(data)
 })
+
+.catch(error => {
+    console.error("Error:", error); 
+});
